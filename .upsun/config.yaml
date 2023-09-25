@@ -20,7 +20,7 @@ applications:
     # More information: https://docs.upsun.com/create-apps/app-reference.html#relationships
     relationships:
       mariadb: "mariadb:mysql"
-      network_storage: "network_storage:network-storage"
+      network_storage: "networkstorage:network-storage"
       opensearch: "opensearch:opensearch"
       redis_persistent: "redis_persistent:redis"
       
